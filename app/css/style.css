@@ -1,1 +1,27 @@
 @import "_globals.css";
+
+
+.hero__wrapper {
+    font-size: var(--fs-88);
+    color: var(--text);
+    width: 65%;
+}
+
+.hero__text {
+    display: inline;
+}
+
+h1 > span {
+    color: var(--accent);
+    background-color: var(--bg-body);
+    border-bottom: 4px solid var(--accent);
+    margin-bottom: -100px;
+}   
+
+.hero__desc {
+    font-size: var(--fs-24);
+}
+
+#hero__profile-photo {
+    display: inline;
+}
